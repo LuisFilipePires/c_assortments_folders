@@ -36,10 +36,12 @@ int main()
     return (0);
 }
 
-/*c3r5s4% ./a.out         
+//how to convert a string to a long integer using strtol function
+
+/*./a.out         
 long int x: 123
 rest: abc
 long int x: 3
 rest: ABC
-c3r5s4% 
+
 */
