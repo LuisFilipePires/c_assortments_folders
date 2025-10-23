@@ -9,6 +9,17 @@
 /*   Updated: 2025/10/23 15:23:28 by luis-fif         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+/*
+NAME
+       strtol, strtoll, strtoq - convert a string to a long integer
+
+SYNOPSIS
+       #include <stdlib.h>
+
+       long strtol(const char *nptr, char **endptr, int base);
+
+       long long strtoll(const char *nptr, char **endptr, int base);
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
