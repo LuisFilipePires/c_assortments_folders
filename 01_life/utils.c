@@ -38,7 +38,7 @@ void print_board(t_cell **board, int w, int h)
 		for (int j = 0; j < w; j++)
 		{
 			if (board[i][j].now == 1)
-				putchar('0');
+				putchar(79);
 			else
 				putchar(32);
 		}
